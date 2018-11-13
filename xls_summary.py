@@ -5,7 +5,7 @@ import csv
 import xlrd
 import arrow
 from multiprocessing import Pool,Process,freeze_support,cpu_count
-""" 程序功能：获取本程序当前目录下所有excel文档，文档内容汇总至同一表格results.csv """
+""" 程序功能：获取本程序当前目录下所有excel文档，文档内容汇总至同一表格summary.csv """
 def get_xlsfiles():
     """ 获取当前文件夹下excel文件 """
     current_dir = os.getcwd()
